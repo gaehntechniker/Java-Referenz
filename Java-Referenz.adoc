@@ -127,6 +127,19 @@ public static int verdoppeln(int x) {
 System.out.println(verdoppeln(5)); // Ausgabe: 10
 ----
 
+== Vorgegebene Funktionen
+
+=== Zufallszahl
+
+[source, java]
+----
+import java.util.Random;
+[...]
+    Random random = new Random();
+
+    int i = random.nextInt(Obergrenze); 
+----
+
 ==  Klassen & Objekte
 
 === Eine Klasse definieren
